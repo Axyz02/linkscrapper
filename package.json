@@ -1,0 +1,23 @@
+{
+  "name": "web_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "cheerio": "^1.0.0-rc.11",
+    "fs-extra": "^0.26.7",
+    "phantomjs": "^2.1.7",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.88.2",
+    "request-cloudflare": "^2.0.0",
+    "request-promise": "^4.2.6",
+    "slimerjs": "^1.0.0"
+  }
+}
